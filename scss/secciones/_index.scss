@@ -1,0 +1,98 @@
+.mainIndex{
+    margin-top: 5px;
+    .sectionDanza{
+        display: flex;
+        align-items: center;
+        margin-top: 100px;
+            .danzaModerna{
+            position: absolute;
+            border-radius: 20px;
+            width: 50%;
+            padding: 7px 25px;
+            margin-left: 40px;
+            z-index: 1000;
+                h2{
+                    color: $color-parrafo;
+                    font-weight: bolder;
+                }
+                h1{
+                    color: #69306D;
+                    font-size: 50px;
+                    font-family: 'Laila', sans-serif;
+                    font-weight: 600;
+                }
+                p{
+                    color: $color-parrafo;
+                    font-size: 20px;
+                    margin-bottom: 0px;
+                }
+            }
+    }
+    .carousel-control-prev {
+    left: -65px;
+    }
+    .sectionPages{
+        display: flex;
+        margin: 30px;
+        justify-content: space-around;
+            .nosotrosIndex{
+                width: 50%;
+                margin: 25px;
+                    img{
+                        width: 100%;
+                        border-radius: 10px; 
+                    }
+                    h2{
+                        color: #69306D;
+                        font-weight: bolder;
+                        font-size: 1.8em;
+                        margin: 0 auto;
+                        margin-top: 10px;
+                    }
+                    p{
+                        color: $color-parrafo;
+                        margin-bottom: 0px;
+                    }
+                    .boton{
+                        text-decoration: none;
+                        color: #A5668B;
+                            &:hover{
+                                color: #69306D;
+                            }
+                    }
+            }
+    .ritmosIndex{
+    width: 50%;
+    margin: 25px;
+        img{
+        width: 100%;
+        border-radius: 10px; 
+        }
+        h2{
+        color: #69306D;
+        font-weight: bolder;
+        font-size: 1.8em;
+        margin: 0 auto;
+        margin-top: 10px;
+        }
+        p{
+        color: $color-parrafo;
+        margin-bottom: 0px;
+        }
+        .boton{
+            text-decoration: none;
+            color: #A5668B;
+                &:hover{
+                    color: #69306D;
+                }
+        }
+    }
+}
+}
+
+
+
+
+
+
+

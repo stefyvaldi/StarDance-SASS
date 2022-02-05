@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', 'Laila'; }
+
+.fixed-top {
+  background-color: #f7eff6;
+  width: 100%;
+  box-shadow: 5px 5px 5px rgba(39, 3, 38, 0.1); }
+  .fixed-top .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end; }
+  .fixed-top .logoHeader {
+    width: 90px; }
+  .fixed-top .navbar-light .navbar-nav .nav-link .active {
+    color: #A5668B;
+    font-weight: bold; }
+  .fixed-top .navbar-light .navbar-nav .nav-link {
+    color: #69306D;
+    font-size: 1.1em;
+    border-radius: 5px; }
+  .fixed-top .navbar-toggler:focus {
+    box-shadow: 0 0 0 0rem; }
+  .fixed-top .navbar-light .navbar-toggler {
+    border-color: #69306D; }
+  .fixed-top .navbar-light .navbar-toggler-icon {
+    background-image: url(../imagenes/nav.puntos.png); }
+  .fixed-top .navbar-toggler {
+    padding: 0.2rem 0.55rem; }
+  .fixed-top .navbar-light .navbar-toggler:hover {
+    border: 2px solid #69306D; }
+  .fixed-top .navbar-light .navbar-nav .nav-link:hover {
+    background-color: #69306D;
+    color: #F2D7EE;
+    border-radius: 5px;
+    padding: 6px; }
+  .fixed-top .navbar-collapse {
+    text-align: center; }
+
+.footer {
+  background-color: #69306D;
+  display: flex;
+  padding: 5px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center; }
+  .footer p {
+    color: #F2D7EE;
+    font-size: 15px;
+    margin: 5px; }
+  .footer .redes {
+    margin: 5px;
+    display: flex; }
+    .footer .redes a {
+      color: #F2D7EE;
+      font-size: 25px;
+      padding-right: 15px;
+      transition: transform 0.8s; }
+      .footer .redes a:hover {
+        color: #dfa3c6;
+        transform: scale(1.3); }
+
+.mainIndex {
+  margin-top: 5px; }
+  .mainIndex .sectionDanza {
+    display: flex;
+    align-items: center;
+    margin-top: 100px; }
+    .mainIndex .sectionDanza .danzaModerna {
+      position: absolute;
+      border-radius: 20px;
+      width: 50%;
+      padding: 7px 25px;
+      margin-left: 40px;
+      z-index: 1000; }
+      .mainIndex .sectionDanza .danzaModerna h2 {
+        color: #170329;
+        font-weight: bolder; }
+      .mainIndex .sectionDanza .danzaModerna h1 {
+        color: #69306D;
+        font-size: 50px;
+        font-family: 'Laila', sans-serif;
+        font-weight: 600; }
+      .mainIndex .sectionDanza .danzaModerna p {
+        color: #170329;
+        font-size: 20px;
+        margin-bottom: 0px; }
+  .mainIndex .carousel-control-prev {
+    left: -65px; }
+  .mainIndex .sectionPages {
+    display: flex;
+    margin: 30px;
+    justify-content: space-around; }
+    .mainIndex .sectionPages .nosotrosIndex {
+      width: 50%;
+      margin: 25px; }
+      .mainIndex .sectionPages .nosotrosIndex img {
+        width: 100%;
+        border-radius: 10px; }
+      .mainIndex .sectionPages .nosotrosIndex h2 {
+        color: #69306D;
+        font-weight: bolder;
+        font-size: 1.8em;
+        margin: 0 auto;
+        margin-top: 10px; }
+      .mainIndex .sectionPages .nosotrosIndex p {
+        color: #170329;
+        margin-bottom: 0px; }
+      .mainIndex .sectionPages .nosotrosIndex .boton {
+        text-decoration: none;
+        color: #A5668B; }
+        .mainIndex .sectionPages .nosotrosIndex .boton:hover {
+          color: #69306D; }
+    .mainIndex .sectionPages .ritmosIndex {
+      width: 50%;
+      margin: 25px; }
+      .mainIndex .sectionPages .ritmosIndex img {
+        width: 100%;
+        border-radius: 10px; }
+      .mainIndex .sectionPages .ritmosIndex h2 {
+        color: #69306D;
+        font-weight: bolder;
+        font-size: 1.8em;
+        margin: 0 auto;
+        margin-top: 10px; }
+      .mainIndex .sectionPages .ritmosIndex p {
+        color: #170329;
+        margin-bottom: 0px; }
+      .mainIndex .sectionPages .ritmosIndex .boton {
+        text-decoration: none;
+        color: #A5668B; }
+        .mainIndex .sectionPages .ritmosIndex .boton:hover {
+          color: #69306D; }

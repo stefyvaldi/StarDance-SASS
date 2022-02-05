@@ -1,0 +1,45 @@
+.fixed-top {
+    background-color: #f7eff6;
+    width: 100%;
+    box-shadow: 5px 5px 5px rgba(39, 3, 38, 0.1);
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+.logoHeader{
+    width: 90px;
+}
+.navbar-light .navbar-nav .nav-link .active{
+    color: #A5668B;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #69306D;
+    font-size: 1.1em;
+    border-radius: 5px;
+}
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0rem;
+}
+.navbar-light .navbar-toggler {
+    border-color: #69306D;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../imagenes/nav.puntos.png);
+}
+.navbar-toggler {
+    padding: 0.2rem 0.55rem;
+}
+.navbar-light .navbar-toggler:hover{
+    border: 2px solid #69306D;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+            background-color: #69306D;
+            color: #F2D7EE;
+            border-radius: 5px;
+            padding: 6px;
+}
+.navbar-collapse {
+    text-align: center;
+}
+}

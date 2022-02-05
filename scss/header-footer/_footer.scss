@@ -1,0 +1,32 @@
+.footer{
+    background-color: #69306D;
+    display: flex;
+    padding: 5px;
+    width: 100%; 
+    justify-content: space-between;
+    align-items: center;
+    p{
+        color: #F2D7EE;
+        font-size: 15px;
+        margin: 5px;
+    }
+    .redes{
+        margin: 5px;
+        display: flex;
+        a{
+            color: #F2D7EE;
+            font-size: 25px;
+            padding-right: 15px;
+            transition: transform 0.8s;
+            &:hover{
+                color: #dfa3c6;
+                transform: scale(1.3);
+            }
+        }
+    } 
+}
+
+
+
+
+

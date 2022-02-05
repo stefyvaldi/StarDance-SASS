@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'Laila';
+}
+
+// VARIABLES
+@import './utilidades/colores';
+
+
+// IMPORTACIONES
+@import './header-footer/header';
+@import './header-footer/footer';
+@import './secciones/index';
